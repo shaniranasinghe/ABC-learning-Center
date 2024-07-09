@@ -1,0 +1,497 @@
+body{
+    background-image:linear-gradient(white,rgb(64, 62, 77));   /*Putting background colour*/    
+}
+
+/* Creating Header*/
+.header{
+    width:1500px ;
+    height:270px;
+    border:1px solid rgb(71, 58, 196);
+    background-image: url("../images/3.jpg");
+}
+#name{
+    margin-top: 100px;
+    font-size:80px;
+    color: aliceblue;        
+}
+#im{
+    width: "200";
+    border:solid rgb(58, 41, 104);
+    margin-top:-200px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+
+#top{    
+    text-align:center;
+    color: black;
+    font-size:50px;
+}
+
+
+.button{    
+    width:250px;
+    height:450px;
+    margin-top: 150px;
+}
+#btn{
+    border-radius:20px;
+    border:3px solid black;
+    width:200px; 
+    height:50px;      
+}
+#btn:hover{
+    background: red;
+}
+
+   
+/* Home Page */
+#home_para1{
+    margin-left:280px;        
+    width:200px ;    
+    color: black;     
+}
+#home_para2{
+    margin-left:550px;
+    margin-top: -595px;
+    width:200px;  
+      
+    color: black;
+}
+#home_para3{
+    margin-left:820px;
+    margin-top: -355px;
+    width:200px;    
+    color: black;
+}
+#pic{
+    height:280px;
+}    
+#home_img{
+    width: 450px;
+    margin-top: -240px;
+    margin-left: 1050px;
+    
+}
+
+
+
+/* About Us Page */
+#about_para1{
+    margin-left:300px;
+       
+    width:300px ;
+    
+    color: black;
+}
+#about_para2{
+    margin-left:700px;
+    margin-top: -115px;    
+    width:300px ;
+    
+    color: black;
+}
+#about_para3{
+    margin-left:1100px;
+    margin-top: -135px;    
+    width:300px ;
+    height:400px;
+    color: black;
+}
+#about_para4{
+    margin-left:300px;
+    margin-top:-220px;    
+    width:300px ;
+    height:800px;
+    color: black;
+}
+#about_para5{
+    margin-left:700px;
+    margin-top:-820px;    
+    width:300px ;
+    height:600px;
+    color: black;    
+}
+#about_para6{
+    margin-left:1100px;
+    margin-top:-620px;    
+    width:300px ;
+    height:700px;
+    color: black;
+}
+#about_img{
+    width:400px;   
+}
+
+
+/* Contact Us Page */
+#contact_para1{
+    margin-left:250px;        
+    width:150px ;
+    height:700px;
+    color: black; 
+}
+#contact_para2{
+    margin-left:460px;
+    margin-top: -720px;    
+    width:150px ;
+    height:700px;
+    color: black;
+}
+#contact_para3{
+    margin-left:670px;
+    margin-top: -720px;    
+    width:150px ;
+    height:700px;
+    color: black;
+}
+#contact_para4{
+    margin-left:900px;
+    margin-top:-725px;    
+    width:500px ;
+    height:600px;
+    color: black;
+}
+
+
+/* Courses Page */
+#course_para1{
+    margin-left:400px;        
+    width:300px ;
+    height:500px;
+    color: black;
+}
+#course_para2{
+    margin-left:900px;
+    margin-top: -700px;    
+    width:300px ;
+    height:600px;
+    color: black;
+}
+#java_img{
+    width:200px ;
+    margin-left:400px ;
+    margin-top:-100px ;
+}
+#html_img{
+    width:200px ;
+    margin-left:950px ;
+    margin-top:-300px ;
+}
+#java_btn{
+    border-radius:20px;
+    border:3px solid black;
+    width: 200px; 
+    height: 50px;
+    margin-left:400px ;        
+}
+#java_btn:hover{
+    background: yellow;
+}
+#html_btn{
+    border-radius:20px;
+    border:3px solid black;
+    width: 200px; 
+    height: 50px;
+    margin-left:950px ;   
+}
+#html_btn:hover{
+    background: yellow;
+}
+#regi_btn{
+    border-radius:20px;
+    border:3px solid black;
+    width: 200px; 
+    height: 50px;
+    margin-left:30px ;
+}
+#regi_btn:hover{
+    background: yellow;
+}
+
+
+/* Courses Details Page */
+#details_para1{
+    color: black;
+    width: 800px;
+    margin-left: 500px;     
+    height: 800px;   
+}
+#details_para2{
+    color: black;
+    width: 800px;
+    margin-left: 500px;     
+    height: 600px;
+}
+#details_img{
+    width: 600px;
+    margin-left:500px;
+    float: right;
+    margin-right: 400px;
+    margin-top:-500px;
+}
+#para1{
+    width:400px ;
+    margin-left:500px ;
+    height:350px;
+    margin-top: -100px;
+}
+#para2{
+    width: 400px;
+    margin-left:1000px ;
+    height:350px;
+    margin-top: -375px;
+}
+#details_btn{
+    border-radius:20px;
+    border:3px solid black;
+    width: 200px; 
+    height: 50px;
+    margin-left:750px ;
+}
+#details_btn:hover{
+    background: yellow;
+}
+#shedule1{
+    color: black;
+    margin-left:300px ;
+}
+
+
+/* Courses Schedule Page */
+#para3{
+    margin-left: 300px;    
+}
+.table, tr, th, td {
+    border: 1px solid black;
+  }
+#para4{
+    margin-left: 850px;
+    margin-top: -380px;
+    width: 200px;
+}
+#duration{
+    width: 250px;
+}
+#para5{
+    margin-left: 1200px;
+    margin-top: -470px;
+    height: 460px;
+}
+
+
+/* Registration Page */
+
+#appli{
+    margin-left:250px ;
+    height:900px ;    
+    font-size: 20px;
+}
+.form{
+    border-style: solid;
+    border-color: transparent;
+}
+.hov{
+    border-style: solid;
+    border-color: transparent;
+}
+.tabhead{
+    border-style: solid;
+    border-color: transparent;
+    height: 70px;
+}
+.sel{
+    border-style: solid;
+    border-color: transparent;
+    height: 70px;
+}
+#reset{
+    margin-left: 320px;
+    margin-top:70px ;
+}
+#submit_btn{
+    border-radius:20px;
+    border:3px solid black;
+    width: 200px; 
+    height: 50px;
+    margin-left:250px ;
+}
+#submit_btn:hover{
+    background: yellow;
+}
+
+#body_banner{
+	width: 337.5px;
+	height: 450px;
+}
+
+
+
+/* Thank You Page */
+#imag_new{
+    width: "200";
+    border:solid rgb(58, 41, 104);
+    margin-top:-180px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+#thank_img{
+    margin-left:200px;
+    height: 500px;
+    width: 600px;
+}
+#Thank_img{
+    margin-left:400px ;
+    margin-top: -600px;
+    width:800px ;
+}
+#thnk1{
+    font-size: 50px;
+    
+}
+#thnk_hed{
+    font-size:80px ;
+}
+
+
+/* Sitemap Page */
+#site_im{
+    height:500px;
+}
+#sitemap_img1{
+    margin-left: 300px;
+    width: 590px;
+    float: right;
+    margin-right: 700px;    
+}
+#sitemap_img2{    
+    margin-top: -400px;      
+    float: right;
+    width: 590px;
+}
+
+#sit1{
+    margin-left:40px ;
+    font-size: 20px;    
+}
+#sit1:hover{
+    background:yellow;
+}    
+#sit2{
+   margin-left:130px ;
+   font-size: 20px;
+}
+#sit2:hover{
+    background: yellow;
+}
+#sit3{
+   margin-left:120px ;
+   font-size: 20px;
+}
+#sit3:hover{
+    background: yellow;
+}
+#sit4{
+    margin-left: 140px;
+    font-size: 20px;
+}
+#sit4:hover{
+    background: yellow;
+}
+#sit5{
+    margin-left: 200px;
+    font-size: 20px;
+}
+#sit5:hover{
+    background: yellow;
+}
+#home{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#home a{
+    color: black;
+}
+#about{
+    margin-left: 260px;
+    margin-top:-165px;
+    font-size: 20px;
+}
+#about a{
+    color: black;
+}
+#contact{
+    margin-left: 470px;
+    margin-top:-340px ;
+    font-size: 20px;
+}
+#contact a{
+    color: black;
+}
+#courses{
+    margin-left: 720px;
+    margin-top: -220px;
+    font-size: 20px;
+}
+#courses a{
+    color: black;
+}
+#pri_policy{
+    margin-left: 1020px;
+    margin-top:-280px ;
+    font-size: 20px;
+    height: 350px;
+}
+#pri_policy a{
+    color: black;
+}
+
+
+
+
+/* Privacy Policy Page */
+#paragr1{
+    margin-left:400px ;    
+    height:1500px ;
+}
+#paragr2{
+    margin-left:400px ;
+    margin-top: -350px;
+    height:300px ;
+}
+
+
+
+/* Creating Footer */
+.footer{
+    background-image:url("../images/key.jpg");
+    height: 200px;
+    font-size: 20px;
+}
+#addre1{
+    margin-left:500px ;
+    margin-top: -35px;
+}
+#addre2{
+    margin-left:180px;
+    margin-top: -35px;
+}
+#ima{
+   margin-left:1200px; 
+   margin-top:-30px ;   
+}
+#im1{
+    width:50px;
+}
+#im2{
+    width:50px;
+}
+#im3{
+    width:50px;
+}
+#im4{
+    width:50px;
+}
+

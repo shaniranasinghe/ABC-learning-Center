@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>ABC Learning Center</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="keywords" content="html,.net,ABC,ABC learning,ABC learning center, Learning Center, Home, About us, Contact us, Sitemap, Courses, html detais, .net details">
+            <link rel="stylesheet" href="CSS\styles.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$(".nav1_bar a").click(function(){
+						$(this).tab('show');
+					});					
+				});
+
+				$(document).ready(function(){
+					$(".nav2_bar a").click(function(){
+						$(this).tab('show');
+					});					
+				});
+
+				$(document).ready(function(){
+					$(".nav3_bar a").click(function(){
+						$(this).tab('show');
+					});					
+				});
+
+				$(document).
+				ready(function(){
+					$(".nav4_bar a").click(function(){
+						$(this).tab('show');
+					});					
+				});
+
+				function isInputNumber(evt) {                  //number validation in registartion form
+					var ch = String.fromCharCode(evt.which);
+
+					if(!(/[0-9]/.test(ch))) {
+                        evt.preventDefault();
+                    }
+				}
+
+
+				function lettersOnly(input) {                 //letter validation in registartion form
+					var regex = /[^a-z]/gi;
+					input.value = input.value.replace(regex,"");
+				}
+			</script>
+        </head>
+
+        <body>
+			<!---------Starting point of the header content----------->
+			<section class="header">
+				<nav>
+					<div id="name">
+						<p><b><center> ABC Learning Center</center></b></p>  
+					</div>        
+					  <img id="im" src=images/ABC.png ><br><br><br><br><br><br><!--This is the logo-->
+				</nav>
+				<!---------navigation bar-------->
+				<div class="nav1_bar">
+					<a href="#Index"><button id="btn">Home</button></a><br><br>
+                    <a href="#About_Us"><button id="btn">About Us</button></a><br><br>
+                    <a href="#Contact_Us"><button id="btn">Contact Us</button></a><br><br>
+                    <a href="#Courses"><button id="btn">Courses</button></a><br><br>
+                    <a href="#Sitemap"><button id="btn">Sitemap</button></a><br><br>
+                    <a href="#Privacy_Policy"><button id="btn">Privacy Policy</button></a><br><br>
+				</div>
+			</section>
+			<section class="content">
+				<div class="tab-content">
+					<div id="Index" class="tab-pane fade in active">
+						<div id="top">
+						    <p><marquee direction="left"><b>WELCOME TO ABC LEARNING CENTER</b></marquee></p><br> <!--Putting a marquee direction-->
+						</div>	
+						<div id="home_para1" >
+							<center><h3>Key features</h3></center>        
+							<p>Education without barriers is  a main feature of ABC Learning Center. 
+								Also you can Study with International lecturers and students.            
+								We are the ABC Learning Center with a good reputation for many years. 
+								By partnering with more than 20 universities in Asia's Open Campus 
+								Partnership, we bring world-class higher education opportunities for 
+								young people ready to embrace the digital future. You can earn while 
+								you study. This allows students to earn tuition fees again and learn 
+								to bring classroom knowledge to a higher level before graduation. 
+								You can obtain a degree with an international degree and three years 
+								of international service experience. The highest degree is awarded by 
+								a top Commonwealth Association member university in the United Kingdom.
+							</p>     
+						</div>
+						<div id="home_para2" >
+							<center><h3>Events</h3></center>
+							<p>"ABC Learning Center" is an IT Training Center.
+								On campus you can learn with your peers, demonstrate your expertise 
+								and build your network. There are details about every aspect of 
+								digital education. We need to connect with our curriculum through 
+								daily live discussions. The most important thing is to get involved. 
+								You can choose a profile that suits your skills. Together we can provide 
+								students with the best online education they can think of.</p>
+						</div>
+					
+						<div id="home_para3" >
+							<center><h3>Offers</h3></center>
+							<p>Receives a Co-operative Scholarship. There are certified 
+								international job placements. In addition, there are 
+								offers to gain full knowledge, gain practical experience 
+								in the field during the course, gain more experience, 
+								develop skills, work with foreign clients solving real 
+								problems during internships, and obtain other physical facilities.</p>            
+						</div>
+						<div id="pic">
+						<img id="home_img"src=images/flo.png > 
+						</div>						
+					</div>					
+					<div id="About_Us" class="tab-pane fade">
+						<div id="top">
+						    <p><b>About Us</b></p>
+						</div>	
+						<div id="about_para1">
+							<center><h3>Vision</h3></center>        
+							<p>To be recognized as a leader in higher education and research, 
+								providing a transformational educational experience.
+					
+							</p>     
+						</div>
+						<div id="about_para2">
+							<center><h3>Mission</h3></center>
+							<p>Our mission is to develop creative and highly skilled professionals 
+								with an international outlook, who will make a significant contribution 
+								to the global knowledge economy.</p>
+						</div>
+						<div id="about_para3">
+							<center><h3>Facilities</h3></center>
+							<p>Work with foreign clients, resolving real problems during internship. 
+								Study with international studennts. Also,study without barriers. </p>
+						</div>
+						<div id="about_para4">
+							<center><h3>Annual Reports</h3></center>
+							<p>In the first year there were 22 students and 6 faculty members. 
+								In the second year, that number increased to 12. Over the years, 
+								quality standards of learning and teaching have been maintained, 
+								and the number of students has increased as there has been a great 
+								deal of interest in learning in the field of information and communication technology.
+					
+								In addition to awarding British degrees in Sri Lanka, ABC also served 
+								as the basis for producing the next generation of IT and Communication 
+								Technology graduates to cater to the rapidly growing IT sector in Asia. 
+								ABC is considered to be a pioneer in the development of the tertiary education sector in Sri Lanka.
+								
+								ABC's rapid growth and its growing alumni base are a clear indication of 
+								its professional reputation and quality standards.</p> 
+								<img id="about_img" src=images/report.jpg >
+								
+						</div>
+						<div id="about_para5">
+							<center><h3>Board of Directors</h3></center>
+							<p>There are a lot of directors in out center.</p>
+							<ul>
+								<li>Prof. Jayantha Wijeyaratne</li>
+								<li>Mr. Mohan Fernando</li>                
+								<li>Mr. Saliya Wickramasuriya</li>                
+								<li>Ms. Shehara De Silva</li>                
+								<li>Ms. Kishani Perera</li>                
+								<li>Ms. Naomi Krishanrajah</li>                
+								<li>Ms.Balasundarampillai</li>
+								<li>Prof. Shanthalal Rubasinghe </li>
+								<li>Mr. Nishantha Kumara</li>                
+								<li>Mr. Chaminda Kumod</li>                
+								<li>Ms. Shani Shehara</li>                
+								<li>Ms. Koshila Samarajewa</li>                
+								<li>Ms. Malani pranandu</li>                
+								<li>Ms. Iresha Kumari</li>                        
+							</ul>
+							
+						</div>
+						<div id="about_para6">
+							<center><h3>Location</h3></center>
+							<p>ABC Learning Center,<br>
+								No 1236,Walawwatta,<br>
+								Rahula Road,<br>
+								Matara<br><br></br>
+								You can contact us by using this address         
+							</p>
+						</div>
+					</div><br><br>
+					<div id="Contact_Us" class="tab-pane fade">
+						<div id="top">
+							<p><b>Contact Us</b></p>
+						</div>
+						<div id="contact_para1">
+							<center><h3>Email Address</h3></center>        
+							<p>You can contact us by using this email<br>Get in touch with us<br><br><br>helpnanwo@gmail.com</p>                   
+						</div>
+						<div id="contact_para2">
+							<center><h3>Telephone</h3></center>        
+							<p>You can use the phone number below to contact us.<br>+714550456</p>     
+						</div>
+						<div id="contact_para3">
+							<center><h3>Inquire Now</h3></center>        
+							<form action="/action_page.php">
+								<label >First name:</label><br>
+								<input type="text" placeholder="Type your first name"><br><br>
+								<label>Last name:</label><br>
+								<input type="text" placeholder="Type your last name"><br><br>
+								<label>Email:</label><br>
+								<input type="email" placeholder="Type your email"><br><br>
+								<label>Message:</label><br>
+								<input type="text" placeholder="Enter your message"><br><br>
+								<input type="submit" value="Submit">
+								<input type="reset" value="clear">
+							</form>              
+						</div>
+						<div id="contact_para4">
+							<center><h3>Found Us</h3></center>        
+							<p>You can use Google Maps to find out where ABC Learning Center is.</p>  
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.
+							306019846627!2d80.5380343147153!3d5.952505795688186!2m3!1f0!2f0!3f0!3m2!
+							1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f2d757b0091%3A0xb483ed1916b5fd14!2s
+							Rahula%20Rd%2C%20Matara!5e0!3m2!1sen!2slk!4v1634573768276!5m2!1sen!2slk" 
+							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>   
+						</div>
+					</div>
+					<div id="Courses" class="tab-pane fade">
+						<div id="top">
+							<p><b>Courses</b></p>
+						</div>                        
+						<div id="course_para1">
+							<center><h3>Programming in Java</h3></center>        
+							<p>Java is an object-oriented programming language for software developers 
+								for several platforms. Compared to low-level programming languages, 
+								high-level programming languages ​​use a simple and easy-to-understand 
+								programming system that uses a mixture of natural language (any language 
+								used by humans) and general computer applications. When a programmer 
+								writes a Java application, the compiled code (called bytecode) runs 
+								on most operating systems (operating systems), including Windows, Linux, and Mac.</p>     
+						</div>
+						<img id="java_img" src=images/java1.jpg.crdownload><br><br>
+						<div class="nav2_bar">
+						<a href="#course_details_java"><button id="java_btn">Read More</button></a><br><br> 
+						</div> 
+								
+						<div id="course_para2">
+							<center><h3>HTML</h3></center>
+							<p>Hypertext Markup Language (HTML) is a computer language that makes up most 
+								web pages and online applications. A hypertext is a text that is used to 
+								reference other pieces of text, while a markup language is a series of 
+								markings that tells web servers the style and structure of a document. 
+								HTML is not considered a programming language as it can’t create dynamic 
+								functionality. Instead, with HTML, web users can create and structure 
+								sections, paragraphs, and links using elements, tags, and attributes</p>
+						</div> 
+						<img id="html_img" src=images/html.jpg><br><br> 
+						<div class="nav2_bar">
+						<a href="#course_details_html"><button id="html_btn">Read More</button></a><br><br><br>
+						<a href="#Registration"><button id="regi_btn">Registration Application</button></a><br><br></br>
+						</div>
+					</div>
+
+					<div id="course_details_java" class="tab-pane fade">
+						<div id="top">
+							<p><b>Course Details(Programming in Java)</b></p>
+						</div>
+						<div id="details_para2">    
+							<p>One of the most widely used programming languages, Java is used 
+							as the server-side language for most back-end development projects, 
+							including those involving big data and Android development. Java is 
+							also commonly used for desktop computing, other mobile computing,
+							games, and numerical computing.</p> 
+						</div>   
+						<img id="details_img" src=images/java.jpg > <br><br><br><br> 
+						<div id= "para1">
+						<center><h3>Course Outline</h3></center>    
+							<p>he purpose of a course outline (or syllabus) is to provide students with 
+								a description of the course goals, desired learning outcomes, specific 
+								content, modes of learning, resources to support content, assessment 
+								methods and due dates, and any relevant course policies of which students 
+								need to be aware.
+					
+								The outline should be considered a contract between instructors and 
+								students. Changes to the structure of a course during a course offering 
+								should be avoided, and modifying the methods and timing of evaluation 
+								can be made only with unanimous consent of the students.</p>
+						</div>
+						<div id="para2">
+						<center><h3>Course Curriculum</h3></center>    
+							<p>BSc (Hons) Artificial Intelligence and Data Science
+								BSc(Hons) Artificial Intelligence and Data Science 
+								The comprehensive curriculum of this course emphasises 
+								an appropriate understanding and application of integral 
+								AI and Data Science concepts, and their application to solve real-world problems.</p>
+						</div>
+						<div class="nav3_bar">
+					    	<a href="#course_schedule_java"><button id="details_btn">View Schedule</button></a><br><br>
+						</div>
+					</div>
+					<div id="course_details_html" class="tab-pane fade">
+						<div id="top">
+							<p><b>Course Details(HTML)</b></p>
+						</div>
+						<div id="details_para1">    
+							<p>Some of the most common uses for HTML are below.<br><br>
+					
+								Web development-   Developers use HTML code to design how a browser displays web 
+								page elements, such as text, hyperlinks, and media files.<br><br> 
+								Internet navigation-   Users can easily navigate and insert links between related 
+								pages and websites as HTML is heavily used to embed hyperlinks.<br><br> 
+								Web documentation-   HTML makes it possible to organize and format documents, 
+								similarly to Microsoft Word.<br><br>
+								It’s also worth noting that HTML is now considered an official web standard. 
+								The World Wide Web Consortium (W3C) maintains and develops HTML specifications, 
+								along with providing regular updates. 
+								
+								HTML documents are files that end with a .html or .htm extension. A web browser 
+								reads the HTML file and renders its content so that internet users can view it.
+								
+								All HTML pages have a series of HTML elements, consisting of a set of tags and 
+								attributes. HTML elements are the building blocks of a web page. A tag tells the 
+								web browser where an element begins and ends, whereas an attribute describes the 
+								characteristics of an element.</p><br><br><br><br> 
+							</div>  
+						<img id="details_img" src=images/Graduation.jpg > <br><br> 
+						<div id= "para1">
+						<center><h3>Course Outline</h3></center>    
+							<p>he purpose of a course outline (or syllabus) is to provide students with 
+								a description of the course goals, desired learning outcomes, specific 
+								content, modes of learning, resources to support content, assessment 
+								methods and due dates, and any relevant course policies of which students 
+								need to be aware.
+					
+								The outline should be considered a contract between instructors and 
+								students. Changes to the structure of a course during a course offering 
+								should be avoided, and modifying the methods and timing of evaluation 
+								can be made only with unanimous consent of the students.</p>
+						</div>
+						<div id="para2">
+						<center><h3>Course Curriculum</h3></center>    
+							<p>BSc (Hons) Artificial Intelligence and Data Science
+								BSc(Hons) Artificial Intelligence and Data Science 
+								The comprehensive curriculum of this course emphasises 
+								an appropriate understanding and application of integral 
+								AI and Data Science concepts, and their application to solve real-world problems.</p>
+						</div>
+						<div class="nav3_bar">
+					    	<a href="#course_schedule_html"><button id="details_btn">View Schedule</button></a><br><br>
+						</div>
+					</div>						
+					<div id="course_schedule_java" class="tab-pane fade">
+						<div id="top">
+							<p><b>Course Schedule(Programming in JAVA)</b></p>
+						</div>
+						<div id= "para3">
+							<h3>Time Table</h3>    
+							<table style=" width:400px; background:rgba(179, 225, 241, 0.6);">
+								<caption>THE 2021-2022 COURSE TIMETABLE</caption>
+								<tr>
+									<th>Times</th>
+									<th>Monday</th>
+									<th>Tuesday</th>
+									<th>Wednesday</th>
+									<th>Thursday</th>
+									<th>Friday</th>
+								</tr>
+								<tr>
+									<td>09.00-10.30</td>
+									<td>Self Study</td>
+									<td>Intensive English Course</td>
+									<td>Self Study</td>
+									<td>Flipped class</td>
+									<td>eLearning</td>
+								</tr>
+								<tr>
+									<td>10.30-12.00</td>
+									<td>eLearning</td>
+									<td>Self Study</td>
+									<td>Self Study</td>
+									<td>Assignment</td>
+									<td>eLearning</td>
+								</tr>
+								<tr>
+									<td>1.00-3.00</td>
+									<td>Self Study</td>
+									<td>Assignment</td>
+									<td>Intensive English Course</td>
+									<td>Project Mentoring</td>
+									<td>Project Implementation</td>
+								</tr>
+								<tr>
+									<td>3.00-4.30</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+								</tr>
+								<tr>
+									<td>4.30-6.00</td>
+									<td>Self Study</td>
+									<td>eLearning</td>
+									<td>Intensive English Course</td>
+									<td>Self Study</td>
+									<td>Assignment</td>
+								</tr>
+							</table>
+						</div>
+						<div id="para4">
+							<h3>Duration</h3>    
+							<p> Year 1:<br><br>
+								Full-time, on Campus+off Campus, Boot Camp (12 months, Study 40 hrs a Week)<br><br><br>
+								
+								Year 2, 3 and 4:<br><br>
+								Full-time Internship (5-days a week), Part-time Study (6-12 hours a Week, on Weekends)</p>
+								<img id="duration" src=images/offers.jpg >
+						</div>
+						<div id="para5">
+							<h3>Name of Lecturers</h3>
+							<ul>
+								<li>Prof. Shanthalal Rubasinghe </li>
+								<li>Mr. Nishantha Kumara</li>                
+								<li>Mr. Chaminda Kumod</li>                
+								<li>Ms. Shani Shehara</li>                
+								<li>Ms. Koshila Samarajewa</li>                
+								<li>Ms. Malani pranandu</li>                
+								<li>Ms. Iresha Kumari</li>                        
+							</ul>
+						</div>
+					</div>
+					<div id="course_schedule_html" class="tab-pane fade">
+						<div id="top">
+							<p><b>Course Schedule(HTML)</b></p>
+						</div>
+						<div id= "para3">
+							<h3>Time Table</h3>    
+							<table style=" width:400px; background:rgba(179, 225, 241, 0.6);">
+								<caption>THE 2021-2022 COURSE TIMETABLE</caption>
+								<tr>
+									<th>Times</th>
+									<th>Monday</th>
+									<th>Tuesday</th>
+									<th>Wednesday</th>
+									<th>Thursday</th>
+									<th>Friday</th>
+								</tr>
+								<tr>
+									<td>09.00-10.30</td>
+									<td>Self Study</td>
+									<td>Intensive English Course</td>
+									<td>Self Study</td>
+									<td>Flipped class</td>
+									<td>eLearning</td>
+								</tr>
+								<tr>
+									<td>10.30-12.00</td>
+									<td>eLearning</td>
+									<td>Self Study</td>
+									<td>Self Study</td>
+									<td>Assignment</td>
+									<td>eLearning</td>
+								</tr>
+								<tr>
+									<td>1.00-3.00</td>
+									<td>Self Study</td>
+									<td>Assignment</td>
+									<td>Intensive English Course</td>
+									<td>Project Mentoring</td>
+									<td>Project Implementation</td>
+								</tr>
+								<tr>
+									<td>3.00-4.30</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+									<td>Live Multi Test</td>
+								</tr>
+								<tr>
+									<td>4.30-6.00</td>
+									<td>Self Study</td>
+									<td>eLearning</td>
+									<td>Intensive English Course</td>
+									<td>Self Study</td>
+									<td>Assignment</td>
+								</tr>
+							</table>
+						</div>
+						<div id="para4">
+							<h3>Duration</h3>    
+							<p> Year 1:<br><br>
+								Full-time, on Campus+off Campus, Boot Camp (12 months, Study 40 hrs a Week)<br><br><br>
+								
+								Year 2, 3 and 4:<br><br>
+								Full-time Internship (5-days a week), Part-time Study (6-12 hours a Week, on Weekends)</p>
+								<img id="duration" src=images/duration2.jpg >
+						</div>
+						<div id="para5">
+							<h3>Name of Lecturers</h3>
+							<ul>
+								<li>Prof. Jayantha Wijeyaratne</li>
+								<li>Mr. Mohan Fernando</li>                
+								<li>Mr. Saliya Wickramasuriya</li>                
+								<li>Ms. Shehara De Silva</li>                
+								<li>Ms. Kishani Perera</li>                
+								<li>Ms. Naomi Krishanrajah</li>                
+								<li>Ms.Balasundarampillai</li>                        
+							</ul>
+						</div>
+					</div>
+					<div id="Registration" class="tab-pane fade">
+						<div id="top">
+							<p><b>Registration Application</b></p>
+						</div>
+                        <div id="appli">
+							<form  action="Thank You.html" onsubmit="return validateForm()"  method="POST" class="ajax">
+								<table class="form" >									
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="fname">Name</label>
+										</th>
+										<td class="sel">
+											<input type="text" id="fname" name="firstname" placeholder="First name....." onkeyup="lettersOnly(this)" required>
+										</td>
+										<td class="sel">
+											<input type="text" id="lname" name="lastname" placeholder="Last name....." onkeyup="lettersOnly(this)">
+										</td>
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="bday">Date of Birth</label>
+										</th>
+										<td class="sel">
+											<input type="date" id="bday" name="birthday" placeholder="....." required>
+										</td>
+										<td class="sel">
+					
+										</td>
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="nic">NIC No.</label>
+										</th>
+										<td class="sel">
+											<input type="text" id="nic" name="NIC" placeholder="..................V/X"  maxlength="12"> 
+										</td>
+										<td class="sel">
+					
+										</td>
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="gender">Gender</label>
+										</th>
+										<td class="sel">
+											<input type="radio" id="gender1" name="gender" value="male">
+											<label for="gender1">Male</label>
+										
+										
+											<input type="radio" id="gender2" name="gender" value="female">
+											<label for="gender1">Female</label>
+										</td>
+										<td class="sel">
+					
+										</td>
+										
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="phone">Phone number</label>
+										</th>
+										
+										<td class="sel">
+											<select>
+												<option>+94</option>
+												<option>+54</option>
+												<option>+1</option>
+												<option>+32</option>
+												<option>+55</option>
+											</select>
+												
+										</td>
+										<td class="sel">
+											<input type="tel" id="phone" name="phonenum" placeholder=" 123-456-789"  maxlength="12" onkeypress="isInputNumber(event)" > 
+										</td>
+										
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="email">Email</label>
+										</th>
+										<td class="sel">
+											<input type="email" id="email" name="email" placeholder="..................@gamail.com" required>
+										</td>
+										<td class="sel">
+					
+										</td>
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="phone">Address</label>
+										</th>										
+									
+										<td class="sel">
+											<input type="text" id="add" name="address" placeholder="Enter your adderss" required>
+										</td>
+										<td class="sel">
+
+										</td>
+										
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="course">Interest programme</label>
+										</th>
+										<td class="sel">
+											<select id="course1" name="course">
+												<option  value="HTML">Please select a course</option>
+												<option  value="HTML">JAVA</option>
+												<option  value="HTML">HTML</option>
+											</select>
+										</td> 
+										<td class="sel">
+					
+										</td>
+									</tr>
+									<tr class="hov">
+										<th class="tabhead">
+											<label for="course">GCE O/L,GCE A/L Certifates</label>
+										</th>
+										<td class="sel">
+											<label for="myfile"> GCE O/L</label>
+											<input type="file" id="myfile" name="myfile" multiple required>
+										</td> 
+										<td class="sel">
+											<label for="myfile"> GCE A/L</label>
+											<input type="file" id="myfile" name="myfile" multiple>
+										</td>
+									</tr>
+									<tr>
+										<td class="sel" colspan="3"  class="reg" >
+											<div id="reset">
+											    <input type="reset" value="Reset">
+											</div><br>
+											<div class="nav3_bar">
+												<button id="submit_btn">Submit</button></a><br><br>
+											</div>
+										</td>
+										<td class="sel">
+					
+										</td>
+									</tr>
+									
+								</table>
+							</form>
+						</div>						
+					</div>
+					<div id="Thank_You" class="tab-pane fade">
+						<div id="top">
+							<p><b>Thank You...!!</b></p>						
+                            <img id="thank_img" src=images/thank.jpg >
+						</div>
+					</div>	
+					<div id="Sitemap" class="tab-pane fade">
+						<div id="top">
+							<p><b>Sitemap</b></p>                            
+						</div>
+						<div id="site_im">
+							<img id="sitemap_img1" src=images/sitemp1.jpg>
+							<img id="sitemap_img2" src=images/sitemp2.jpg>
+						</div>						
+						<div class="nav4_bar">
+						    <a href="#Index"><button id="sit1">Home</button></a>     
+						    <a href="#About_Us"><button id="sit2">About Us</button></a>
+						    <a href="#Contact_Us"><button id="sit3">Cotact Us</button></a>
+						    <a href="#Courses"><button id="sit4">Courses</button></a>   						
+						    <a href="#Privacy_Policy"><button id="sit5">Privacy Policy</button></a><br>
+						
+							<div id="home">
+								<a id="home_1" href="#Index">Key Features</a><br><br>
+								<a id="home_2" href="#Index">Events</a><br><br>
+								<a id="home_3" href="#Index">Offers</a><br><br>
+							</div> 
+							<div id="about">
+								<a href="#About_Us">Vision</a><br><br>
+								<a href="#About_Us">Mission</a><br><br>
+								<a href="#About_Us">Facilities</a><br><br>
+								<a href="#About_Us">Annual Reports</a><br><br>
+								<a href="#About_Us">Board of Directors</a><br><br>
+								<a href="#About_Us">Location</a><br><br>
+							</div>
+							<div id="contact">
+								<a href="#Contact_Us">Email Address</a><br><br>
+								<a href="#Contact_Us">Telephone</a><br><br>
+								<a href="#Contact_Us">Inquire Now</a><br><br>
+								<a href="#Contact_Us">Found Us</a><br><br>
+							</div> 
+							<div id="courses">    
+								<a href="#course_details_java">Course Details(JAVA)</a><br><br>
+								<a href="#course_details_html">Course Details(HTML)</a><br><br>
+								<a href="#course_schedule_java">Course Schedule(JAVA)</a><br><br>
+								<a href="#course_schedule_html">Course Schedule(HTML)</a><br><br>
+								<a href="#Registration">Registration Application</a><br><br>								
+							</div>
+							<div id="pri_policy">
+								<a href="#Privacy_Policy">Person Privacy Data</a><br><br>
+								<a href="#Privacy_Policy">Terms and Conditions</a><br><br>
+							</div>
+						</div>
+					</div>
+					<div id="Privacy_Policy" class="tab-pane fade">
+						<div id="top">
+							<p><b>Privacy Policy</b></p>
+						</div>
+						<div id="paragr1">
+							<h3>Person Privacy Data</h3>    
+							<ul type="square">                        
+								<li>Personal information we collect about you and how we collect it</li><br>
+								We collect personal information whenever you contact us and we 
+								also provide identifiable information when you contact us by phone, 
+								email or when you sign up to use any of our Services. In particular, 
+								we collect information about you when you register on any of our 
+								websites and create a user account, publish content on any of our 
+								websites, sign up for an event, enter your details into a form, and upload your CV.
+					
+								Personal data collected from public sources
+								We collect and maintain a list of scholars. This data consists of 
+								name and email address. Data is collected from public sources. We 
+								guarantee that you have data exchange agreements to ensure the 
+								security and proper use of your data. We do not share your personal 
+								information with companies other than team companies.
+								
+								We will automatically collect some limited information about your visit 
+								to our site. Other information that is automatically received includes 
+								your: IP address (which identifies the computer or device you use to 
+								access websites); Time and date of your arrival; Browser; operating 
+								system; This is used for internet connection details as well as for 
+								our websites you are looking for.<br><br><br>
+								<li>Our legal basis for collecting and using your personal information</li><br>
+								Data protection law stipulates that any personal information may be 
+								used only where there is a legitimate basis for it. We have a legal 
+								obligation to process your personal information. You have agreed to 
+								use our personal information with us. You may revoke your consent 
+								at any time if we rely on your consent to process your personal 
+								information. No such cancellation will affect the legitimacy of 
+								prior use of that personal information.
+					
+								We use your personal information to enable you to use our websites. 
+								To verify your identity and manage your account, to handle your 
+								queries and requests, to provide you with updates on website developments, 
+								and to report reports or complaints related to the content you upload to 
+								our website. To investigate the alleged misuse of any of our platforms for 
+								discrimination based on age, race, sex, gender or gender reassignment, 
+								nationality, disability, religion or belief, or any other form of 
+								discriminatory behavior. We use your personal information to prevent, 
+								identify and report money laundering or fraudulent activities, and to 
+								keep records of actions taken in your account.<br><br><br>
+								<li>Personal information that we share with third parties</li><br>
+								In order to provide the services provided on our websites, 
+								we may have to share your personal information with other 
+								companies. However, we continue to be responsible for the 
+								use and security of your personal information when this happens.<br><br>            
+								<li>Other circumstances where use or share your personal information</li><br>
+								In certain circumstances, we may be required at law to disclose your 
+								personal information to third parties such as government bodies, 
+								law enforcement agencies, and data protection regulators.<br><br><br>
+								<li>Your rights</li><br>
+								If you have any queries or complaints regarding the way we use your 
+								information, please contact us. If you wish to receive further 
+								complaints or inquiries, you have the right to take action on such issues.<br><br><br>
+								<li>Access and update your personal information</li><br>
+								You have the right to view the personal information we hold about you 
+								and to ask us: Make any changes to ensure that any personal information 
+								we hold about you is accurate and up to date, stopping the deletion or 
+								processing of personal information we hold about you where there is no 
+								longer any legal basis to keep it about you, our information about you 
+								is specific Transfer to a third party. If you would like to do the above, 
+								please contact us.<br><br><br>
+								<li>Changes in our privacy policy</li><br>
+								This Privacy Policy may be amended at any time and we will provide notice 
+								on our website if we make any material changes to it. By continuing to use 
+								our Website, you agree to the updated Privacy Policy. If you do not agree 
+								to any changes we make, you should not use or access our Website.<br><br><br>
+								<li>Legal and contact information</li><br> 
+								We will use all reasonable efforts to answer or resolve any questions 
+								regarding your privacy. We welcome all comments, queries and requests 
+								regarding your use of your personal information. If you would like to 
+								contact us, inquiries should be directed to customer service at the 
+								above address. Or email help@.nandwo.com
+							</ul>
+						</div>
+						<div id="paragr2">
+							<h3>Terms and Conditions</h3>    
+							<ul type="square">            
+								<li>Changes in conditions</li>
+								<li>User-uploaded content</li>
+								<li>Objections to user-uploaded content</li>
+								<li>Its proprietary rights</li>
+								<li>You use our websites</li>
+								<li>Confidential information</li>
+								<li>Modifications to Websites and / or Services</li>
+								<li>Limitations of liability</li>
+								<li>Logo License</li>
+								<li>general information</li>
+								<li>Complaints about our websites and services</li>  
+							</ul>
+						</div>
+					</div>
+				</div>				
+			</section>
+			
+			
+			<section class="footer">
+				<ul type="square">
+                    <li>Head Office-ABC Learning Center</li>
+                </ul>
+                <div id="addre1">
+                    <ul type="square">   
+                        <li>Institude Location  : </li>
+                        <div id="addre2">
+                             <p>ABC Learning Center,<br>
+                             No 1236,Walawwatta,<br>
+                             Rahula Road,<br>
+                             Matara</p>
+                        </div>  
+                    </ul> 
+                </div>                
+                <div id="ima">
+                   Social media that can connect us  :<br><br>
+                   <a href="http://www.whatsapp.com"><img id="im1" src=images/wtsp.jpg alt="whatsapp"></a>
+                   <a href="http://www.facebook.com"><img id="im2" src=images/fb.jpg alt="fb"></a>
+                   <a href="http://www.twitter.com"><img id="im3" src=images/twi.jpg alt="twitter"></a>
+                   <a href="http://www.instagram.com"><img id="im4" src=images/inst.jpg alt="instagram"></a>
+                </div> 
+			</section>
+		</body>
+	</html>
